@@ -1,0 +1,22 @@
+class lote:
+    def __init__(self, largo, ancho, constructora):
+        self.largo = largo
+        self.ancho = ancho
+        self.constructora = constructora
+    def calcularArea(self):
+        print("area del lote = " + str(self.largo * self.ancho)) 
+    def printconstructora(self):
+        print("constructora: " + self.constructora)
+       
+class casa(lote):
+    def __init__(self, largo,ancho, constructora, propietario, telefono):
+        super().__init__(largo, ancho, constructora)
+        self.propietario = propietario
+        self.telefono = telefono
+    def datos(self):
+        print("nombre propietario: " + self.propietario + "\ncontacto: " + self.telefono)
+
+x = casa(7, 4, "Unitecnar", "D'Andre Boston", "3215700940")
+x.calcularArea()
+x.printconstructora()
+x.datos()
