@@ -1,0 +1,21 @@
+Diccionarios
+
+key:value
+V={ }
+
+'nombre': 'D'Andre'
+'Apellido': 'Boston'
+'hobbies': ['prog','series']
+
+
+to elimate we have 3 nethos
+pop (key)
+popitems(the last thing we addded)
+del(key can elimate Diccionarios y propidades)
+
+syntax
+V.pop('nombre')
+V.popitems
+Del V['NOMBRE']
+Del V 
+
